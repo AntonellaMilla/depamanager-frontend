@@ -1,4 +1,4 @@
-// src/modules/perfil/services/PerfilService.js
+// src/modules/perfil/services/perfilService.js
 import api from '../../../shared/services/api';
 
 const BASE_URL = '/usuarios';
