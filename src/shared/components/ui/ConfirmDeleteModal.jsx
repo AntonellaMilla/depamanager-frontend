@@ -1,8 +1,8 @@
-// src/shared/components/ui/ConfirmDeleteModalSimple.jsx (versión simple pero elegante)
+// src/shared/components/ui/ConfirmDeleteModal.jsx (versión simple pero elegante)
 import { AlertTriangle, Trash2, X } from 'lucide-react';
 import Button from './Button';
 
-const ConfirmDeleteModalSimple = ({
+const ConfirmDeleteModal = ({
   isOpen,
   onClose,
   onConfirm,
@@ -88,4 +88,4 @@ const ConfirmDeleteModalSimple = ({
   );
 };
 
-export default ConfirmDeleteModalSimple;
+export default ConfirmDeleteModal;
