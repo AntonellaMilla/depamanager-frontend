@@ -10,7 +10,7 @@ import Button from '../../../shared/components/ui/Button';
 import Input from '../../../shared/components/ui/Input';
 import { edificiosService } from '../services/edificiosService';
 import { useAuth } from '../../../shared/hooks/useAuth';
-import { getRoleColors } from "../../../shared/components/layout/config/menuconfig";
+import { getRoleColors } from "../../../shared/components/layout/config/menuConfig";
 
 import UpgradePlanPage from './UpgradePlanPage';
 import toast from 'react-hot-toast';

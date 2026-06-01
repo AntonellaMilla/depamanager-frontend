@@ -11,7 +11,7 @@ import Button from '../../../shared/components/ui/Button';
 import Select from '../../../shared/components/ui/Select';
 import { AuthContext } from '../../../shared/context/AuthContext';
 import { useAuth } from '../../../shared/hooks/useAuth';
-import { getRoleColors } from "../../../shared/components/layout/config/menuconfig";
+import { getRoleColors } from "../../../shared/components/layout/config/menuConfig";
 import { perfilService } from '../services/perfilService';
 import toast from 'react-hot-toast';
 

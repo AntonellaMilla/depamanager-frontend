@@ -9,7 +9,7 @@ import {
 import Button from '../../../shared/components/ui/Button';
 import { edificiosService } from '../services/edificiosService';
 import { useAuth } from '../../../shared/hooks/useAuth';
-import { getRoleColors } from "../../../shared/components/layout/config/menuconfig";
+import { getRoleColors } from "../../../shared/components/layout/config/menuConfig";
 
 import Ellipse4 from '../../../assets/images/yapelogo.png';
 

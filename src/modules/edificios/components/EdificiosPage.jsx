@@ -12,7 +12,7 @@ import AsignarAdminModal from './AsignarAdminModal';
 
 import { edificiosService } from '../services/edificiosService';
 import { useAuth } from '../../../shared/hooks/useAuth';
-import { getRoleColors } from "../../../shared/components/layout/config/menuconfig";
+import { getRoleColors } from "../../../shared/components/layout/config/menuConfig";
 
 import toast from 'react-hot-toast';
 

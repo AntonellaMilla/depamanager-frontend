@@ -10,7 +10,7 @@ import { edificiosService } from '../services/edificiosService';
 import { administradoresService } from '../../administradores/services/administradoresService';
 import { PlanTab } from '../components/PlanTab';
 import { useAuth } from '../../../shared/hooks/useAuth';
-import { getRoleColors } from "../../../shared/components/layout/config/menuconfig";
+import { getRoleColors } from "../../../shared/components/layout/config/menuConfig";
 
 import toast from 'react-hot-toast';
 

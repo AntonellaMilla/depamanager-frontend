@@ -12,7 +12,7 @@ import ConfirmDeleteModal from '../../../shared/components/ui/ConfirmDeleteModal
 import CameraStream from '../components/CameraStream';
 import { camarasService } from '../services/camarasService';
 import { useAuth } from '../../../shared/hooks/useAuth';
-import { getRoleColors } from "../../../shared/components/layout/config/menuconfig";
+import { getRoleColors } from "../../../shared/components/layout/config/menuConfig";
 import toast from 'react-hot-toast';
 
 const VerCamaraPage = () => {
