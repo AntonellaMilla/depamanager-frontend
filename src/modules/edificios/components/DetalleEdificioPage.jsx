@@ -8,7 +8,7 @@ import Input from '../../../shared/components/ui/Input';
 import Select from '../../../shared/components/ui/Select';
 import { edificiosService } from '../services/edificiosService';
 import { administradoresService } from '../../administradores/services/administradoresService';
-import { PlanTab } from '../components/PlanTab';
+import UpgradePlanPage from './UpgradePlanPage';
 import { useAuth } from '../../../shared/hooks/useAuth';
 import { getRoleColors } from "../../../shared/components/layout/config/menuConfig";
 
@@ -480,7 +480,7 @@ const DetalleEdificioPage = () => {
 
         {/* TAB PLAN */}
         {activeTab === 'plan' && (
-          <PlanTab edificio={edificio} />
+          <UpgradePlanPage edificio={edificio} />
         )}
 
         {/* Footer con acciones de edición */}

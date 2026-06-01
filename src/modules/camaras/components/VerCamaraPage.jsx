@@ -9,7 +9,7 @@ import Layout from '../../../shared/components/layout/Layout';
 import Button from '../../../shared/components/ui/Button';
 import Input from '../../../shared/components/ui/Input';
 import ConfirmDeleteModal from '../../../shared/components/ui/ConfirmDeleteModal';
-import CameraStream from '../components/CameraStream';
+import CameraStream from './CameraStream';
 import { camarasService } from '../services/camarasService';
 import { useAuth } from '../../../shared/hooks/useAuth';
 import { getRoleColors } from "../../../shared/components/layout/config/menuConfig";
