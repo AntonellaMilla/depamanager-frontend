@@ -1,4 +1,3 @@
 export { default as ProfilePage } from './components/ProfilePage';
 export { default as EditProfilePage } from './components/EditProfilePage';
-
-export { perfilService } from './services/perfilService.js';
+export { default as perfilService } from './services/perfilService';
